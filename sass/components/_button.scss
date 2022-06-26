@@ -9,10 +9,4 @@
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color var(--transition-data);
-
-  &:hover,
-  &:focus {
-    background-color: #188ce8;
-  }
 }

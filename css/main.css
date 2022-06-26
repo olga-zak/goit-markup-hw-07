@@ -179,6 +179,10 @@ img {
 
 .hero__button {
   padding: 10px 32px;
+  transition: background-color var(--transition-data);
+}
+.hero__button:hover, .hero__button:focus {
+  background-color: #188ce8;
 }
 
 .peculiarities-list {
@@ -405,6 +409,10 @@ img {
   padding: 10px 28px;
   display: flex;
   align-items: center;
+  transition: background-color var(--transition-data);
+}
+.subscription-form__button:hover, .subscription-form__button:focus {
+  background-color: #188ce8;
 }
 
 .subscription-form__icon {
@@ -648,10 +656,6 @@ img {
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color var(--transition-data);
-}
-.button:hover, .button:focus {
-  background-color: #188ce8;
 }
 
 .socials {

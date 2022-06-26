@@ -29,4 +29,10 @@
 }
 .hero__button {
   padding: 10px 32px;
+  transition: background-color var(--transition-data);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

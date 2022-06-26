@@ -68,6 +68,12 @@
   padding: 10px 28px;
   display: flex;
   align-items: center;
+  transition: background-color var(--transition-data);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 .subscription-form__icon {
   margin-left: 10px;
